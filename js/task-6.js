@@ -3,6 +3,7 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
+
 function generateDivSqueres(count) {
   let createDivSquer = '';
   for (let i = 0; i < count; i += 1) {
